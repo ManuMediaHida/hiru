@@ -1,7 +1,5 @@
-// CartDropdown.js
-
 import React from 'react';
-import { useCart } from './CartContext'; // Asegúrate de que la importación sea correcta
+import { useCart } from './CartContext'; 
 
 const CartDropdown = () => {
     const { isCartVisible, items } = useCart();

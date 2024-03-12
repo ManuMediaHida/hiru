@@ -1,4 +1,3 @@
-// src/components/FeaturedProducts.js
 import React from 'react';
 import ProductCard from './ProductCard';
 
@@ -24,7 +23,6 @@ const products = [
         imageUrl: 'sofa.jpg', 
         price: '299.99' 
     },
-    // Agrega más productos según sea necesario
 ];
 
 const FeaturedProducts = () => {

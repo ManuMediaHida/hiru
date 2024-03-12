@@ -1,6 +1,5 @@
-// src/pages/BlogPage.js
 import React from 'react';
-import BlogCard from '../components/BlogCard'; // Verifica que la ruta de importación sea correcta
+import BlogCard from '../components/BlogCard'; 
 import { Link } from 'react-router-dom';
 
 
@@ -10,7 +9,7 @@ const blogPosts = [
         title: '5 Tendencias de Diseño de Interiores para este Año',
         summary: 'Explora las últimas tendencias que están dando forma al mundo del diseño de interiores.',
         imageUrl: 'salon.jpg',
-        blogUrl: '#' // Considera actualizar esta propiedad con una URL válida o una ruta dentro de tu aplicación
+        blogUrl: '#' 
     },
     {
         id: 2,
@@ -35,7 +34,6 @@ const blogPosts = [
         blogUrl: '#'
     },
     
-    // Agrega más blogs según sea necesario
 ];
 
 
@@ -45,7 +43,7 @@ const BlogPage = () => {
             <h1 className="text-3xl text-center mb-8">Nuestro Blog</h1>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {blogPosts.map((post, index) => {
-                    if (index === 0) { // Verificamos si es el primer post para aplicar estilos distintivos
+                    if (index === 0) { 
                         return (
                             <div key={post.id} className="md:col-span-3 flex flex-col lg:flex-row items-center gap-4">
                                 <img src={post.imageUrl} alt={post.title} className="w-full lg:w-1/2 h-64 object-cover rounded-lg"/>
@@ -61,7 +59,6 @@ const BlogPage = () => {
                             </div>
                         );
                     } else {
-                        // Los posts subsecuentes usan el componente BlogCard para mantener el diseño original
                         return <BlogCard key={post.id} title={post.title} summary={post.summary} imageUrl={post.imageUrl} blogUrl={post.blogUrl} />;
                     }
                 })}

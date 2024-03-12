@@ -40,12 +40,10 @@ export const ShoppingCart = () => {
           Pagar
         </button>
       </div>
-      {/* Información de relleno */}
       <div className="text-center mt-12">
         <p className="text-gray-700 mb-2">Explora más productos y ofertas especiales.</p>
         <p className="text-gray-700">¡Gracias por elegirnos!</p>
       </div>
-      {/* Información adicional de relleno */}
       <div className="my-8 p-4 bg-gray-100 rounded-lg">
         <h3 className="text-xl font-semibold mb-4">¿Sabías que?</h3>
         <ul className="list-disc list-inside text-gray-700">

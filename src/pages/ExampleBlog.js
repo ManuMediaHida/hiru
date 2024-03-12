@@ -5,7 +5,6 @@ const ExampleBlog = () => {
     <div className="container mx-auto px-4 py-8">
       <h1 className="text-4xl font-bold text-center mb-10">5 Tendencias de Diseño de Interiores para este Año</h1>
       
-      {/* Sección 1: Imagen a la izquierda */}
       <div className="flex flex-wrap items-center mb-12">
         <div className="w-full md:w-1/2 md:pr-8">
           <img src="/salon.jpg" alt="Tendencias de Diseño de Interiores" className="w-full h-auto rounded-lg mb-8 shadow-lg" />
@@ -18,7 +17,6 @@ const ExampleBlog = () => {
         </div>
       </div>
 
-      {/* Sección 2: Imagen a la derecha */}
       <div className="flex flex-wrap items-center mb-12">
         <div className="w-full md:w-1/2 md:order-2 md:pl-8">
           <h2 className="text-3xl font-bold mb-6">2. Espacios Multifuncionales</h2>
@@ -31,7 +29,6 @@ const ExampleBlog = () => {
         </div>
       </div>
 
-      {/* Sección 3: Imagen a la izquierda */}
       <div className="flex flex-wrap items-center mb-12">
         <div className="w-full md:w-1/2 md:pr-8">
           <img src="/sostenibilidad.jpg" alt="Sostenibilidad" className="w-full h-auto rounded-lg mb-8 shadow-lg" />
@@ -44,7 +41,6 @@ const ExampleBlog = () => {
         </div>
       </div>
 
-      {/* Sección 4: Imagen a la derecha */}
       <div className="flex flex-wrap items-center mb-12">
         <div className="w-full md:w-1/2 md:order-2 md:pl-8">
           <h2 className="text-3xl font-bold mb-6">4. Texturas Ricas y Táctiles</h2>
@@ -57,7 +53,6 @@ const ExampleBlog = () => {
         </div>
       </div>
 
-      {/* Sección 5: Imagen a la izquierda */}
       <div className="flex flex-wrap items-center mb-12">
         <div className="w-full md:w-1/2 md:pr-8">
           <img src="/tecnologia-integrada.jpg" alt="Tecnología Integrada" className="w-full h-auto rounded-lg mb-8 shadow-lg" />

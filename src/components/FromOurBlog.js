@@ -1,4 +1,3 @@
-// Suponiendo que este fragmento esté en src/components/FromOurBlog.js
 import React from 'react';
 import BlogCard from './BlogCard';
 

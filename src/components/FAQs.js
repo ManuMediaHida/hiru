@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 
 const FAQs = () => {
-    const [openFAQ, setOpenFAQ] = useState(null); // ID de la FAQ abierta, null si ninguna está abierta
+    const [openFAQ, setOpenFAQ] = useState(null); 
 
     const toggleFAQ = (index) => {
         if (openFAQ === index) {
-            setOpenFAQ(null); // Si se hace clic en la FAQ ya abierta, se cierra
+            setOpenFAQ(null); 
         } else {
-            setOpenFAQ(index); // De lo contrario, se abre la FAQ seleccionada
+            setOpenFAQ(index);
         }
     };
 
@@ -28,7 +28,6 @@ const FAQs = () => {
             question: "¿Cómo puedo pagar mis compras?",
             answer: "Aceptamos varias formas de pago, incluyendo tarjetas de crédito, PayPal, y transferencias bancarias."
         },
-        // Agrega más preguntas y respuestas aquí
     ];
 
     return (

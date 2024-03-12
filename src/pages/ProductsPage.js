@@ -22,7 +22,7 @@ const ProductsPage = () => {
 
     useEffect(() => {
         filterAndSortProducts(searchTerm, sortType, priceRange);
-    }, [searchTerm, sortType, priceRange]); // Este efecto se ejecutará cada vez que searchTerm, sortType o priceRange cambien
+    }, [searchTerm, sortType, priceRange]); 
 
     const handleSearchChange = (event) => {
         setSearchTerm(event.target.value);
@@ -36,7 +36,7 @@ const ProductsPage = () => {
         const { name, value } = event.target;
         setPriceRange(prevRange => ({
             ...prevRange,
-            [name]: value ? value : name === 'min' ? 0 : Infinity // Ajusta para manejar strings vacíos correctamente
+            [name]: value ? value : name === 'min' ? 0 : Infinity 
         }));
     };
 

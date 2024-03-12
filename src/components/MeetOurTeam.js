@@ -4,31 +4,31 @@ const MeetOurTeam = () => {
             name: "María José",
             role: "Fundadora",
             description: "Visionaria del diseño de interiores, comprometida con la creación de espacios únicos.",
-            imageUrl: "https://randomuser.me/api/portraits/women/68.jpg" // URL de imagen actualizada
+            imageUrl: "https://randomuser.me/api/portraits/women/68.jpg"
         },
         {
             name: "Manuel",
             role: "Community Manager",
             description: "Conectando nuestra marca con la comunidad, llevando nuestras historias a cada rincón del mundo.",
-            imageUrl: "https://randomuser.me/api/portraits/men/32.jpg" // URL de imagen actualizada
+            imageUrl: "https://randomuser.me/api/portraits/men/32.jpg" 
         },
         {
             name: "David",
             role: "Diseñador",
             description: "Creador de conceptos innovadores y estéticas inolvidables en el mundo del diseño de interiores.",
-            imageUrl: "https://randomuser.me/api/portraits/men/83.jpg" // URL de imagen actualizada
+            imageUrl: "https://randomuser.me/api/portraits/men/83.jpg"
         },
         {
             name: "Manolo",
             role: "Atención al Cliente",
             description: "Siempre listo para ayudar, garantizando la mejor experiencia para nuestros clientes.",
-            imageUrl: "https://randomuser.me/api/portraits/men/46.jpg" // URL de imagen actualizada
+            imageUrl: "https://randomuser.me/api/portraits/men/46.jpg" 
         },
         {
             name: "Javier",
             role: "Estilista",
             description: "Experto en transformar espacios comunes en ambientes extraordinarios con su toque único.",
-            imageUrl: "https://randomuser.me/api/portraits/men/90.jpg" // URL de imagen actualizada
+            imageUrl: "https://randomuser.me/api/portraits/men/90.jpg"
         },
     ];
 

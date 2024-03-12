@@ -1,11 +1,9 @@
-// CartContext.js
-
 import React, { createContext, useContext, useReducer, useState } from 'react';
 
 const CartContext = createContext();
 
 const initialCartState = {
-  items: [], // { id, name, price, quantity }
+  items: [],
   totalAmount: 0,
 };
 
@@ -35,7 +33,6 @@ function cartReducer(state, action) {
       };
     }
     case 'REMOVE_ITEM': {
-      // Implementa la lógica para remover un ítem del carrito
       return state;
     }
     default:
@@ -49,8 +46,8 @@ export function CartProvider({ children }) {
   
   const addItemToCart = (item) => {
     dispatch({ type: 'ADD_ITEM', item });
-    setIsCartVisible(true); // Intenta verificar aquí
-    console.log("Carrito visible: ", isCartVisible); // Debería mostrar false en la primera llamada debido a la asincronía de setState
+    setIsCartVisible(true); 
+    console.log("Carrito visible: ", isCartVisible); 
 };
 
   const removeItemFromCart = (id) => {

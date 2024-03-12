@@ -19,10 +19,8 @@ const ContactUs = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        // Aquí iría la lógica para enviar los datos del formulario, por ejemplo, a una API.
         console.log(formData);
         alert('Formulario enviado. Gracias por contactarnos.');
-        // Restablecer el formulario
         setFormData({
             name: '',
             email: '',
