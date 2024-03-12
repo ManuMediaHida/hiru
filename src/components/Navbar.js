@@ -29,7 +29,7 @@ const Navbar = () => {
           <Link to="/" className="text-gray-800 hover:text-gray-600 transition duration-150 ease-in-out mt-4 md:mt-0 md:ml-4">Inicio</Link>
           <Link to="/products" className="text-gray-800 hover:text-gray-600 transition duration-150 ease-in-out mt-4 md:mt-0 md:ml-4">Productos</Link>
           <Link to="/blog" className="text-gray-800 hover:text-gray-600 transition duration-150 ease-in-out mt-4 md:mt-0 md:ml-4">Blog</Link>
-          <Link to="/contact" className="text-gray-800 hover:text-gray-600 transition duration-150 ease-in-out mt-4 md:mt-0 md:ml-4">Contacta con nosotros</Link>
+          <Link to="/contact" className="text-gray-800 hover:text-gray-600 transition duration-150 ease-in-out mt-4 md:mt-0 md:ml-4">Contáctanos</Link>
           <Link to={"/cart"} className="text-gray-800 hover:text-gray-600 transition duration-150 ease-in-out mt-4 md:mt-0 md:ml-4">
           Carrito<span className="ml-2 bg-gray-200 rounded-full px-2 py-1 text-xs">{quantity}</span>
           </Link>

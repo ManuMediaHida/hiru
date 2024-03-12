@@ -45,22 +45,17 @@ export const ShoppingCart = () => {
         <p className="text-gray-700 mb-2">Explora más productos y ofertas especiales.</p>
         <p className="text-gray-700">¡Gracias por elegirnos!</p>
       </div>
-      {/* Navbar fijo en el fondo */}
-      <div className="fixed bottom-0 left-0 w-full bg-gray-800 text-white text-center py-4">
-        <p>Navbar - Coloca aquí tus enlaces o información relevante</p>
-      </div>
       {/* Información adicional de relleno */}
-<div className="my-8 p-4 bg-gray-100 rounded-lg">
-  <h3 className="text-xl font-semibold mb-4">¿Sabías que?</h3>
-  <ul className="list-disc list-inside text-gray-700">
-    <li>Todas las compras realizadas esta semana tienen un 10% de descuento en tu próxima compra.</li>
-    <li>Nuestra política de devolución es flexible, ofreciéndote hasta 30 días para devoluciones sin complicaciones.</li>
-    <li>Considera complementar tu compra con accesorios exclusivos disponibles en nuestra sección de ofertas especiales.</li>
-    <li>Lee los testimonios de nuestros clientes satisfechos y descubre por qué aman nuestros productos.</li>
-    <li>Estamos comprometidos con el medio ambiente, utilizando embalajes reciclables para todas nuestras entregas.</li>
-  </ul>
-</div>
-
+      <div className="my-8 p-4 bg-gray-100 rounded-lg">
+        <h3 className="text-xl font-semibold mb-4">¿Sabías que?</h3>
+        <ul className="list-disc list-inside text-gray-700">
+          <li>Todas las compras realizadas esta semana tienen un 10% de descuento en tu próxima compra.</li>
+          <li>Nuestra política de devolución es flexible, ofreciéndote hasta 30 días para devoluciones sin complicaciones.</li>
+          <li>Considera complementar tu compra con accesorios exclusivos disponibles en nuestra sección de ofertas especiales.</li>
+          <li>Lee los testimonios de nuestros clientes satisfechos y descubre por qué aman nuestros productos.</li>
+          <li>Estamos comprometidos con el medio ambiente, utilizando embalajes reciclables para todas nuestras entregas.</li>
+        </ul>
+      </div>
     </div>
   );
 };
