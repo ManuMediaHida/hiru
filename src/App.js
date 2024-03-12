@@ -8,6 +8,7 @@ import {ShoppingCart} from './components/ShoppingCart';
 import { ShoppingCartProvider } from './contexts/ShoppingCartContext';
 import BlogPage from './pages/BlogPage';
 import ExampleBlog from './pages/ExampleBlog'; 
+import ContactUs from './pages/ContacUs';
 
 
 
@@ -20,6 +21,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/products" element={<ProductsPage />} />
           <Route path="/blog/example-blog" element={<ExampleBlog/>} /> 
+          <Route path="/contact" element={<ContactUs/>} /> 
           <Route path="/blog" element={<BlogPage />} />
           <Route path="/cart" element={<ShoppingCart />} />
         </Routes>

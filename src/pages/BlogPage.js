@@ -53,7 +53,9 @@ const BlogPage = () => {
                                     <h2 className="text-2xl font-bold mb-2 text-center lg:text-left">{post.title}</h2>
                                     <p className="text-gray-600 mb-4 text-center lg:text-left">{post.summary}</p>
                                     <div className="text-center lg:text-left">
-                                    <Link to="/blog/ExampleBlog" className="text-gray-800 hover:text-gray-600 transition duration-150 ease-in-out mt-4 md:mt-0 md:ml-4">Leer más</Link>
+                                    <Link to="/blog/example-blog" className="bg-teal-500 hover:bg-teal-700 text-white font-bold py-2 px-4 rounded inline-block mt-4 md:mt-0 md:ml-4 transition duration-150 ease-in-out">
+                                      Leer más
+                                    </Link>
                                     </div>
                                 </div>
                             </div>
